@@ -1,5 +1,17 @@
 package com.company;
 
 public class Person {
-    private Long cin;
+    protected Integer cin;
+
+    public Person(Integer cin) {
+        this.cin = cin;
+    }
+
+    public Integer getCin() {
+        return cin;
+    }
+
+    public void setCin(Integer cin) {
+        this.cin = cin;
+    }
 }
